@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="description" content="Pour nous contacter">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/icone.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+        <nav class="header">
+            <a href="index.html"> <strong> Retour à l'accueil </strong> </a>
+            <a href="entreprise.html"> <strong> Entreprise </strong> </a>
+            <a href="realisations.html"> <strong> Réalisations </strong> </a>
+            <input id="searchbar" onkeyup="Recherche()" type="text" name="search" placeholder="" class="test">
+        </nav>
+    </header>
+    <main>
+    <h1 class="Engagements"> Formulaire de contact </h1>
+  <form action="formulaire de contact" method="post">
+    <label for="pet-select">Civilité</label>
+
+    <select name="civilité--" id="sélection-civilité">
+      <option value="">--Choisissez votre civilité--</option>
+      <option value="Mr">Mr</option>
+      <option value="Mme">Mme</option>
+      <option value="Mlle">Mlle</option>
+    </select><br><br>
+    
+    <div>Nom :</div> <input type="nom">
+    <div>Prenom :</div> <input type="prenom">
+    <div>Adresse Postale :</div> <input type="adresse postale">
+        
+    <fieldset>
+        <legend>Validation des politiques de confidentialité de l'entreprise.</legend>
+      
+        <div>
+          <input type="checkbox" id="scales" name="scales" />
+          <label for="scales">Oui</label>
+        </div>
+      
+        <div>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">non</label>
+        </div>
+      </fieldset>
+      <input type="submit" value="Envoyer le formulaire" />
+    </main>
+  </form>
+<footer class="pied"> @Droits d'auteur 2023 </footer> 
+</body>
+</html>
